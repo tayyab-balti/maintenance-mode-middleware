@@ -24,9 +24,8 @@ with optional secret bypass for developers. ✨
 
 | Admin Toggle | Maintenance Page |
 |--------------|------------------|
-| ![Admin Panel](assets/admin-toggle.png) | ![Maintenance Page](assets/maintenance-view.png) |
-
-> ℹ️ *(You can add your own screenshots in the `assets/` folder!)*
+| ![Before Maintenance](https://github.com/user-attachments/assets/e2c7e845-60ef-4f4a-9027-d4595f739915) | ![Maintenance-Page](https://github.com/user-attachments/assets/88d3f8b4-349d-499b-9332-327b0f70a499)
+| ![Admin Panel](https://github.com/user-attachments/assets/ba80436c-4adc-4f18-9d82-c5be40406205) | ![Secret-Key](https://github.com/user-attachments/assets/dc5f93b0-53ef-404f-b43a-e5e4d874f6bf)
 
 ---
 
