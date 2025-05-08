@@ -16,11 +16,11 @@ class UnderConstructionMiddleware:
     def __call__(self, request):
         uc = UnderConstruction.objects.first()
         if request.user.is_staff:
-            return self.get_response(request)
+            return self.get_response(request)  # get_response is a function to call the next step (middleware or view)
         
         sec_key = config("MAINTENANCE_BYPASS_KEY")   # config() is used to securely read values from a .env file
         if 'sk' in request.GET and request.GET['sk'] == sec_key:
-            request.session['bypass_maintenance'] = True
+            request.session['bypass_maintenance'] = True   # Custom session key to allow certain users pass maintenance
             request.session.set_expiry(0)   # session expires when the browser is closed.
         
         if request.session.get('bypass_maintenance', False):
