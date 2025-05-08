@@ -5,7 +5,6 @@ Allows staff users to toggle the site into a user-friendly “Under Construction
 with optional secret bypass for developers. ✨
 
 [![Built with Django](https://img.shields.io/badge/Built%20with-Django-092E20?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
-[![MIT License](https://img.shields.io/github/license/tayyab-balti/maintenance-mode-middleware?style=for-the-badge)](LICENSE)
 
 ---
 
