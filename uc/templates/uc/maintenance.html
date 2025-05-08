@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maintenance Mode</title>
+    <style>
+        body {
+            background-color: #fef3c7;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding-top: 10%;
+        }
+        .box {
+            background: white;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #b45309;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>🚧 Site Under Maintenance</h1>
+        <p>{{ uc_note }}</p>
+        <p><strong>Expected Duration:</strong> {{ uc_duration }}</p>
+    </div>
+</body>
+</html>
